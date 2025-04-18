@@ -1,5 +1,6 @@
 # Save image to gallery 
-(without storage permission headaches)
+(without storage permission headaches) 🤦‍♂️🤦‍♂️🤦‍♂️
+
 
 This sample snippet is taken from the Flutter package: 
 ---
