@@ -89,7 +89,7 @@ Here's how it should look like in full: **[ example only ]**
 </manifest>
 ```
 
-# NOTES:
+## NOTES:
 ```
 # SAVE IMAGE TO GALLERY FIX [pubscpec.yaml]
 saver_gallery: ^4.0.1
