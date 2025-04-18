@@ -95,7 +95,6 @@ Here's how it should look like in full: **[ example only ]**
 saver_gallery: ^4.0.1
 device_info_plus: ^11.3.3
 permission_handler: ^12.0.0+1
-fluttertoast: ^8.2.12
 
 // -------------------
 
