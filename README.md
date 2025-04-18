@@ -31,7 +31,7 @@ Add the following permissions to your **`AndroidManifest.xml`** file:
 ```
 
 
-#### Here's how it should look like in full: **[ example only ]**
+#### Here's how it should look like in full: `[example only]`
 
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
