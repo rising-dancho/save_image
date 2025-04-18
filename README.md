@@ -97,13 +97,15 @@ device_info_plus: ^11.3.3
 permission_handler: ^12.0.0+1
 fluttertoast: ^8.2.12
 
+// -------------------
+
 // SAVING IMAGE TO GALLERY [import dependencies]
 import 'package:saver_gallery/saver_gallery.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:tectags/services/shared_prefs_service.dart';
 
-
+// -------------------
   @override 
   void initState() {
     _requestPermission(); // [gain permission]
@@ -124,6 +126,8 @@ import 'package:tectags/services/shared_prefs_service.dart';
     debugPrint('Permission Request Result: $statuses');
   }
 
+// -------------------
+
   final Uint8List? screenShot = await screenshotController.capture(); // [save your actual image]
   final result = await SaverGallery.saveImage(
         screenShot,
@@ -132,6 +136,5 @@ import 'package:tectags/services/shared_prefs_service.dart';
       ); // [save your actual image] screenShot is my image
 
   debugPrint("Result: $result"); [check structure of: result]
-
-if(result.isSuccess){} //  [do your checks]
+  if(result.isSuccess){} //  [do your checks]
 ```
