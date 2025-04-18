@@ -110,7 +110,7 @@ import 'package:tectags/services/shared_prefs_service.dart';
     _requestPermission(); // [gain permission]
   }
 
- /// Requests necessary permissions based on the platform.  // [gain permission]
+ /// Requests necessary permissions based on the platform. [gain permission]
   Future<void> _requestPermission() async {
     bool statuses;
     if (Platform.isAndroid) {
