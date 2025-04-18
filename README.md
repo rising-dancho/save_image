@@ -134,6 +134,6 @@ import 'package:tectags/services/shared_prefs_service.dart';
         skipIfExists: false,
       ); // [save your actual image] screenShot is my image
 
-  debugPrint("Result: $result"); [check structure of: result]
+  debugPrint("Result: $result"); // [check structure of: result]
   if(result.isSuccess){} //  [do your checks]
 ```
